@@ -7,13 +7,25 @@ import {
   MDBCardBody,
   MDBCardImage,
 } from "mdb-react-ui-kit";
-import { useCart } from "react-use-cart";
+import './Search.css';
+import './SearchBar.js';
+import { useState } from "react";
+import SearchBar from "./SearchBar.js";
+ 
 //npm install react-use-cart
-//npm i mdb-react-ui-kit
-
+//npm i mdb-react-ui-kit 
+ 
 function App() {
+ 
   return (
     <MDBContainer fluid className="my-5">
+       <SearchBar />
+      
+      
+       
+          
+        
+      
       <MDBRow>
         <MDBCol md="12" lg="4" className="mb-4 mb-lg-0">
           <MDBCard>
